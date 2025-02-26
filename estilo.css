@@ -55,13 +55,19 @@ p{
     border-radius: .5rem;
     padding: 1rem;
     box-shadow: .5rem .5rem .5rem .5rem gray;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .item{
     width: 4rem;
     height: 4rem;
     border: .1rem solid gray;
+    border-radius: 5.rem;
+    color: gray;
+    background-color: yellow;
+    margin: 1rem;
+    padding: 1rem;
     
 }
